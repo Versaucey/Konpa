@@ -1,0 +1,14 @@
+{
+  "name": "assistantbot",
+  "version": "1.0.0",
+  "description": "Assistant Bot, a bot that helps you organize your things.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Versaucey",
+  "license": "ISC",
+  "dependencies": {
+    "discord.js": "^11.3.2"
+  }
+}
