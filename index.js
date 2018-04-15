@@ -11,7 +11,7 @@ var fortunes = [
 var bot = new Discord.Client();
 
 bot.on("ready", function() {
-    console.log("Ready");
+    console.log("Konpa is on the go!");
 });
 
 
