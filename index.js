@@ -34,7 +34,10 @@ bot.on("message",function(message)  {
             break;
             
         case "test":
-            message.guild.channels.find("name", "apply-for-mod-log").sendMessage("test")                                                                           
+            var embed = new Discord.RichEmbed()
+                .addField("test", "test")
+                .setColor("00bdff")
+            message.guild.channels.find("name", "apply-for-mod-log").sendEmbed(embed)                                                                           
                                                          
             break;
 
