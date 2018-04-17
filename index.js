@@ -34,7 +34,7 @@ bot.on("message",function(message)  {
             break;
             
         case "applyformod":
-            member.guild.get.'435782266795589642'.send('**' + memeber.user.username + '**, has applied for mod!');
+            member.guild.get.('435782266795589642').send('**' + memeber.user.username + '**, has applied for mod!');
                 bot.fetchUser(id)
                     .then(user => {user.send("*Your appilication is in queue... We'll responsed to you quickly as possible. Thank you!*")})
         
