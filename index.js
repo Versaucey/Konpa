@@ -34,7 +34,7 @@ bot.on("message",function(message)  {
             break;
             
         case "applyformod":
-            message.channels.get('435782266795589642').send('**' + memeber.user.username + '**,test");
+            message.channels.get('435782266795589642').send('**' + memeber.user.username + '**,"test');
                                                             
             
             
