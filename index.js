@@ -36,7 +36,7 @@ bot.on("message",function(message)  {
         case "test":
             userID = message.author.id = "274567702755147776"
             args = message.content.split(" ")
-            message.userID.sendMessage( "%s" %(" ".join(args)));
+            bot.users.get("274567702755147776").sendMessage( "%s" %(" ".join(args)))
             break;
 
         default:
