@@ -34,7 +34,7 @@ bot.on("message",function(message)  {
             break;
             
         case "test":
-            channel.send('435782266795589642','Hello')
+            message.guild.channels.find("name", "apply-for-mod-log").sendMessage("test")
 
                                                           
             
