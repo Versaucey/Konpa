@@ -34,9 +34,9 @@ bot.on("message",function(message)  {
             break;
             
          case "applyformod";
-            userID = message.author.id == "274567702755147776"
+            userID = message.author.id = "274567702755147776"
             args = message.content.split(" ")
-            await message.userID.send_message(message.channel, "%s" %(" ".join(args[1:]))
+            await message.userID.send( "%s" %(" ".join(args[1:]))
 
         default:
             message.channel.sendMessage("Error 1 : Invalid Command");
