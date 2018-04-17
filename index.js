@@ -34,14 +34,8 @@ bot.on("message",function(message)  {
             break;
             
         case "test":
-            message.guild.channels.find("name", "apply-for-mod-log").sendMessage("test")
-
-                                                          
-            
-            bot.fetchUser(id)
-                .then(user => {user.send("*Your appilication is in queue... We'll responsed to you quickly as possible. Thank you!*")})
-        
-                                                            
+            message.guild.channels.find("name", "apply-for-mod-log").sendMessage("test")                                                                           
+                                                         
             break;
 
         default:
