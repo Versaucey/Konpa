@@ -33,10 +33,12 @@ bot.on("message",function(message)  {
             message.channel.sendEmbed(embed);
             break;
             
-        case "test":
-            userID = message.author.id = "274567702755147776"
-            args = message.content.split(" ")
-            bot.users.get("274567702755147776").sendMessage( "%s" %(" ".join(args)))
+        case "applyformod":
+            member.guild.get.'435782266795589642'.send('**' + memeber.user.username + '**, has applied for mod!');
+                bot.fetchUser(id)
+                    .then(user => {user.send("*Your appilication is in queue... We'll responsed to you quickly as possible. Thank you!*")})
+        
+                                                            
             break;
 
         default:
