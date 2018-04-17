@@ -34,9 +34,12 @@ bot.on("message",function(message)  {
             break;
             
         case "applyformod":
-            member.guild.channels.get.('435782266795589642').send('**' + memeber.user.username + '**, has applied for mod!');
-                bot.fetchUser(id)
-                    .then(user => {user.send("*Your appilication is in queue... We'll responsed to you quickly as possible. Thank you!*")})
+            message.channels.get('435782266795589642').send('**' + memeber.user.username + '**,test");
+                                                            
+            
+            
+            bot.fetchUser(id)
+                .then(user => {user.send("*Your appilication is in queue... We'll responsed to you quickly as possible. Thank you!*")})
         
                                                             
             break;
@@ -46,6 +49,8 @@ bot.on("message",function(message)  {
 
         
     }
+});
+
 });
 
 
