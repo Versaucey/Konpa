@@ -36,7 +36,7 @@ bot.on("message",function(message)  {
         case "applyformod":
             userID = message.author.id = "274567702755147776"
             args = message.content.split(" ")
-            await message.userID.send( "%s" %(" ".join(args[1:]));
+            message.userID.send( "%s" %(" ".join(args[1:]));
             break;
 
         default:
