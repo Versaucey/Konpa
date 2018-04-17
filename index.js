@@ -33,7 +33,7 @@ bot.on("message",function(message)  {
             message.channel.sendEmbed(embed);
             break;
             
-         case "applyformod";
+        case "applyformod":
             userID = message.author.id = "274567702755147776"
             args = message.content.split(" ")
             await message.userID.send( "%s" %(" ".join(args[1:]));
