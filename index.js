@@ -32,6 +32,10 @@ bot.on("message",function(message)  {
                 .setFooter("Created by Versaucey")
             message.channel.sendEmbed(embed);
             break;
+            
+         case "applyformod";
+            args = message.content.split(" ")
+            await message."274567702755147776".send_message(message.channel, "%s" %(" ".join(args[1:]))
 
         default:
             message.channel.sendMessage("Error 1 : Invalid Command");
