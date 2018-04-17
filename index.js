@@ -35,7 +35,7 @@ bot.on("message",function(message)  {
             
         case "test":
             var embed = new Discord.RichEmbed()
-                .addField("test", "test")
+                .addField("test", '${<@message.author.id>} has applied for mod')
                 .setColor("00bdff")
             message.guild.channels.find("name", "apply-for-mod-log").sendEmbed(embed)                                                                           
                                                          
